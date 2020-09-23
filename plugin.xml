@@ -1,0 +1,17 @@
+<library path="lib/librqt_plugins">
+  <class name="ur_controller_plugins_ns/ControllerManagerPlugin" type="ur_controller_plugins_ns::ControllerManagerPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A C++ GUI plugin to manage controllers of Universal Robot.
+    </description>
+    <qtgui>
+      <group>
+        <label>UR controller Plugins</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins of UR.</statustip>
+      </group>
+      <label>Controller Manager</label>
+      <icon type="theme">image-x-generic</icon>
+      <statustip>A C++ GUI Controller Manager.</statustip>
+    </qtgui>
+  </class>
+</library>

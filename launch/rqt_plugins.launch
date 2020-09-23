@@ -1,0 +1,4 @@
+<launch>
+  <rosparam file="$(find rqt_plugins)/config/rqt_plugins.yaml" command="load"/>
+  <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui"/>
+</launch>

@@ -1,0 +1,3 @@
+rqt_plugins:
+  parameters:
+     prefix_name_space: /campero
